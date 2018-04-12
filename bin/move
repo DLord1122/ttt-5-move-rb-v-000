@@ -9,7 +9,7 @@ input = gets.strip
 
 index=input_to_index(input)
 
-move(board, string, user_marker = "X")
+move(board, index, user_marker = "X")
 display_board(board)
 
 # Code your CLI Here
